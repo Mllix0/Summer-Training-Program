@@ -39,6 +39,10 @@ Use the following format to document each task:
 **Images / Files:**  
 ```
 
+## Completed Tasks
+
+Add your completed Mechanical track tasks here using the task documentation template above.
+
 ## Tools and Topics
 
 - Mechanical design
