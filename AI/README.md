@@ -51,7 +51,7 @@ Each class contained 200 images, giving a total of 600 training images.
 
 After training and testing the model inside Teachable Machine, the model was exported in TensorFlow/Keras format. A Python script was then created to load the exported model, accept an input image, and predict the image class.
 
-**Dataset Information:**  
+## Dataset Information
 
 The dataset images were collected from Kaggle and organized into three folders:
 
@@ -65,12 +65,16 @@ AI-Image-Recognition-Dataset/
 
 Each folder contained 200 images.
 
-The full dataset was not uploaded to GitHub to avoid making the repository too large. Only the required model files, script, test image, and output screenshot were uploaded.
+The full dataset was not uploaded to GitHub to avoid making the repository too large. Only the required model files, script, test image, output screenshot, and process screenshots were uploaded.
 
 **Dataset Source:**  
 [Diverse Tools Image Dataset for Machine Learning](https://www.kaggle.com/datasets/oortdatahub/diverse-tools-image-dataset-for-machine-learning)
 
-**Steps:**  
+**Dataset Source Screenshot:**  
+
+![Dataset Source Screenshot](./Task-1-Image-Recognition/screenshots/dataset-source.png)
+
+## Steps
 
 1. Chose three image classes: Screwdriver, Wrench, and Pliers.
 2. Downloaded and organized 200 images for each class.
@@ -87,9 +91,17 @@ The full dataset was not uploaded to GitHub to avoid making the repository too l
 13. Loaded the Keras model using the Python script.
 14. Tested the script using an input image.
 15. Saved a screenshot of the prediction output.
-16. Uploaded the required files to GitHub.
+16. Uploaded the required files and screenshots to GitHub.
 
-**Model Evaluation:**  
+## Training and Testing
+
+The model was trained in Google Teachable Machine using 600 total images across three classes.
+
+**Teachable Machine Training Screenshot:**  
+
+![Teachable Machine Training Screenshot](./Task-1-Image-Recognition/screenshots/teachable-machine-training.png)
+
+## Model Evaluation
 
 The trained model was tested using sample images from each class. The model correctly predicted the tested screwdriver, wrench, and pliers images with high confidence.
 
@@ -101,7 +113,7 @@ Test results:
 | Wrench image | Wrench | 100% |
 | Pliers image | Pliers | 93.14% |
 
-**Result / Output:**  
+## Result / Output
 
 The Python script successfully loaded the trained Keras model and predicted the class of the input image.
 
@@ -112,14 +124,18 @@ Predicted Class: Pliers
 Confidence Score: 93.14%
 ```
 
-**Challenges:**  
+**VS Code Prediction Output Screenshot:**  
+
+![VS Code Prediction Output](./Task-1-Image-Recognition/screenshots/vscode-prediction-output.png)
+
+## Challenges
 
 - The first TensorFlow version installed was too new and caused a compatibility error when loading the Teachable Machine Keras model.
 - The error was related to the `DepthwiseConv2D` layer inside the exported model.
 - The issue was solved by installing a compatible TensorFlow version.
 - Another challenge was making sure Python was installed correctly and added to PATH so it could run inside the VS Code terminal.
 
-**What I Learned:**  
+## What I Learned
 
 I learned how to train an image classification model using Google Teachable Machine and how to export it for use in Python. I also learned how to organize image datasets, test a trained model, use TensorFlow/Keras, and run a prediction script inside Visual Studio Code.
 
@@ -129,7 +145,7 @@ This task helped me understand the full basic workflow of an AI image recognitio
 Dataset → Training → Evaluation → Export → Python Testing → GitHub Documentation
 ```
 
-**Files / Links:**  
+## Files / Links
 
 The required task files are stored in:
 
@@ -143,9 +159,11 @@ Uploaded files:
 - [Test Image](./Task-1-Image-Recognition/test_pliers.jpg)
 - [Prediction Output Screenshot](./Task-1-Image-Recognition/prediction-output-pliers.png)
 
-**Output Screenshot:**  
+Process screenshots:
 
-![Prediction Output](./Task-1-Image-Recognition/prediction-output-pliers.png)
+- [Dataset Source Screenshot](./Task-1-Image-Recognition/screenshots/dataset-source.png)
+- [Teachable Machine Training Screenshot](./Task-1-Image-Recognition/screenshots/teachable-machine-training.png)
+- [VS Code Prediction Output Screenshot](./Task-1-Image-Recognition/screenshots/vscode-prediction-output.png)
 
 ## Tools and Topics
 
@@ -169,6 +187,7 @@ Uploaded files:
 - The full dataset was not uploaded to GitHub because it is large.
 - TensorFlow 2.12.1 was used because it was compatible with the exported Teachable Machine Keras model.
 - The output screenshot proves that the Python script successfully predicted the class of the test image.
+- Additional screenshots were added to show the dataset source, training process, and final prediction output.
 
 ## Reflection
 
