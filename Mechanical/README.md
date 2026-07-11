@@ -14,39 +14,6 @@ The Mechanical track focuses on understanding robot structure, mechanical design
 |---|---|---|---|
 | 1 | Initial Mechanical Design for a Simple Robotic Dog | 2026-07-10 | In Progress |
 
-## Task Documentation Template
-
-Use the following format to document each task:
-
-```md
-## Task Number: Task Title
-
-**Date:**  
-
-**Track:**  
-
-**Status:**  
-
-**Objective:**  
-
-**Tools / Software Used:**  
-
-**Task Description:**  
-
-**Steps:**  
-1. 
-2. 
-3. 
-
-**Result / Output:**  
-
-**Challenges:**  
-
-**What I Learned:**  
-
-**Images / Files / Links:**  
-```
-
 ## Completed Tasks
 
 ## Task 1: Initial Mechanical Design for a Simple Robotic Dog
