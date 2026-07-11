@@ -101,7 +101,7 @@ This task helps me understand that robotic movement depends heavily on mechanica
 
 Reference image used to understand the general body shape and leg arrangement of a simple robotic dog:
 
-![Simple Robotic Dog Reference Image](./images/robot-dog-concept.jpg)
+![Simple Robotic Dog Reference Image](./images/robot-dog-concept.jpg.jpg)
 
 **Image Note:**  
 This image is used only as an online reference image for understanding the mechanical concept. It does not represent my final original design.
