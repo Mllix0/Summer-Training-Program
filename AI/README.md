@@ -187,7 +187,6 @@ Process screenshots:
 - TensorFlow 2.12.1 was used because it was compatible with the exported Teachable Machine Keras model.
 - The output screenshot proves that the Python script successfully predicted the class of the test image.
 - Additional screenshots were added to show the dataset source and training process.
-- Screenshot files were organized inside the `screenshots` folder.
 
 ## Reflection
 
