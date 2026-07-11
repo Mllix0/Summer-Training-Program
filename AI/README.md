@@ -72,7 +72,7 @@ The full dataset was not uploaded to GitHub to avoid making the repository too l
 
 **Dataset Source Screenshot:**  
 
-![Dataset Source Screenshot](./Task-1-Image-Recognition/screenshots/dataset-source.png)
+![Dataset Source Screenshot](./Task-1-Image-Recognition/screenshots/Dataset%20Source%20Screenshot.png)
 
 ## Steps
 
@@ -99,7 +99,7 @@ The model was trained in Google Teachable Machine using 600 total images across 
 
 **Teachable Machine Training Screenshot:**  
 
-![Teachable Machine Training Screenshot](./Task-1-Image-Recognition/screenshots/teachable-machine-training.png)
+![Teachable Machine Training Screenshot](./Task-1-Image-Recognition/screenshots/Teachable%20Machine%20Training%20Screenshot.png)
 
 ## Model Evaluation
 
@@ -165,8 +165,8 @@ Uploaded files:
 
 Process screenshots:
 
-- [Dataset Source Screenshot](./Task-1-Image-Recognition/screenshots/dataset-source.png)
-- [Teachable Machine Training Screenshot](./Task-1-Image-Recognition/screenshots/teachable-machine-training.png)
+- [Dataset Source Screenshot](./Task-1-Image-Recognition/screenshots/Dataset%20Source%20Screenshot.png)
+- [Teachable Machine Training Screenshot](./Task-1-Image-Recognition/screenshots/Teachable%20Machine%20Training%20Screenshot.png)
 - [VS Code Prediction Output Screenshot](./Task-1-Image-Recognition/screenshots/vscode-prediction-output.png)
 
 ## Tools and Topics
@@ -192,7 +192,6 @@ Process screenshots:
 - TensorFlow 2.12.1 was used because it was compatible with the exported Teachable Machine Keras model.
 - The output screenshot proves that the Python script successfully predicted the class of the test image.
 - Additional screenshots were added to show the dataset source, training process, and final prediction output.
-- Screenshot files were organized in a lowercase `screenshots` folder to keep the project structure clean.
 
 ## Reflection
 
