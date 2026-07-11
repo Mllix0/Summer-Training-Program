@@ -124,6 +124,10 @@ Predicted Class: Pliers
 Confidence Score: 93.14%
 ```
 
+**Prediction Output Screenshot:**  
+
+![Prediction Output](./Task-1-Image-Recognition/prediction-output-pliers.png)
+
 **VS Code Prediction Output Screenshot:**  
 
 ![VS Code Prediction Output](./Task-1-Image-Recognition/screenshots/vscode-prediction-output.png)
