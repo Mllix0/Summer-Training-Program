@@ -98,7 +98,16 @@ The expected challenges include choosing the correct number of joints, keeping t
 This task helps me understand that robotic movement depends heavily on mechanical design, not only programming or electronics. I learned that body shape, leg structure, joint placement, torque, balance, and degrees of freedom are important factors when designing a walking robot.
 
 **Images / Files / Links:**  
-To be added.
+
+Reference image used to understand the general body shape and leg arrangement of a simple robotic dog:
+
+![Simple Robotic Dog Reference Image](./images/robot-dog-concept.jpg)
+
+**Image Note:**  
+This image is used only as an online reference image for understanding the mechanical concept. It does not represent my final original design.
+
+**Image Source:**  
+Online reference image. Original source link to be added.
 
 ## Tools and Topics
 
@@ -117,8 +126,12 @@ To be added.
 
 ## Notes
 
-Add important notes, references, screenshots, images, or observations related to the Mechanical track here.
+- The design should be simple and focused on understanding the basic mechanical principles of a walking robot.
+- The reference image is used only to understand the general body shape and leg arrangement.
+- The final design should not copy the reference image exactly.
+- Important design factors include balance, joint placement, motor torque, leg movement, and body stability.
+- The main goal is to understand how mechanical design decisions affect the robot’s ability to stand and walk.
 
 ## Reflection
 
-At the end of the training program, write a short reflection about what you learned in the Mechanical track and how it connects to robotics.
+To be completed after finishing the Mechanical track.
