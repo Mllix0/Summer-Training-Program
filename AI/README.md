@@ -128,10 +128,6 @@ Confidence Score: 93.14%
 
 ![Prediction Output](./Task-1-Image-Recognition/prediction-output-pliers.png)
 
-**VS Code Prediction Output Screenshot:**  
-
-![VS Code Prediction Output](./Task-1-Image-Recognition/screenshots/vscode-prediction-output.png)
-
 ## Challenges
 
 - The first TensorFlow version installed was too new and caused a compatibility error when loading the Teachable Machine Keras model.
@@ -167,7 +163,6 @@ Process screenshots:
 
 - [Dataset Source Screenshot](./Task-1-Image-Recognition/screenshots/Dataset%20Source%20Screenshot.png)
 - [Teachable Machine Training Screenshot](./Task-1-Image-Recognition/screenshots/Teachable%20Machine%20Training%20Screenshot.png)
-- [VS Code Prediction Output Screenshot](./Task-1-Image-Recognition/screenshots/vscode-prediction-output.png)
 
 ## Tools and Topics
 
@@ -191,7 +186,8 @@ Process screenshots:
 - The full dataset was not uploaded to GitHub because it is large.
 - TensorFlow 2.12.1 was used because it was compatible with the exported Teachable Machine Keras model.
 - The output screenshot proves that the Python script successfully predicted the class of the test image.
-- Additional screenshots were added to show the dataset source, training process, and final prediction output.
+- Additional screenshots were added to show the dataset source and training process.
+- Screenshot files were organized inside the `screenshots` folder.
 
 ## Reflection
 
