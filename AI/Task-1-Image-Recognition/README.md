@@ -56,6 +56,10 @@ The full dataset was not uploaded to GitHub to avoid making the repository too l
 **Dataset Source:**  
 [Diverse Tools Image Dataset for Machine Learning](https://www.kaggle.com/datasets/oortdatahub/diverse-tools-image-dataset-for-machine-learning)
 
+**Dataset Source Screenshot:**
+
+![Dataset Source Screenshot](./files/Dataset%20Source%20Screenshot.png)
+
 ## Steps
 
 1. Chose three image classes: Screwdriver, Wrench, and Pliers.
@@ -79,6 +83,10 @@ The full dataset was not uploaded to GitHub to avoid making the repository too l
 
 The model was trained in Google Teachable Machine using 600 total images across three classes.
 
+**Teachable Machine Training Screenshot:**
+
+![Teachable Machine Training Screenshot](./files/Teachable%20Machine%20Training%20Screenshot.png)
+
 ## Model Evaluation
 
 The trained model was tested using sample images from each class. The model correctly predicted the tested screwdriver, wrench, and pliers images with high confidence.
@@ -100,6 +108,10 @@ Predicted Class: Pliers
 Confidence Score: 93.14%
 ```
 
+**Prediction Output Screenshot:**
+
+![Prediction Output](./files/prediction-output-pliers.png)
+
 ## Challenges
 
 - The first TensorFlow version installed was too new and caused a compatibility error when loading the Teachable Machine Keras model.
@@ -119,7 +131,15 @@ Dataset → Training → Evaluation → Export → Python Testing → GitHub Doc
 
 ## Files / Links
 
-The required files will be uploaded inside the `files` folder.
+All task files are stored inside the `files` folder.
+
+- [Python Script](./files/predict.py)
+- [Trained Keras Model](./files/keras_model.h5)
+- [Labels File](./files/labels.txt)
+- [Test Image](./files/test_pliers.jpg)
+- [Prediction Output Screenshot](./files/prediction-output-pliers.png)
+- [Dataset Source Screenshot](./files/Dataset%20Source%20Screenshot.png)
+- [Teachable Machine Training Screenshot](./files/Teachable%20Machine%20Training%20Screenshot.png)
 
 ## Notes
 
@@ -128,6 +148,7 @@ The required files will be uploaded inside the `files` folder.
 - The full dataset was not uploaded to GitHub because it is large.
 - TensorFlow 2.12.1 was used because it was compatible with the exported Teachable Machine Keras model.
 - The output screenshot proves that the Python script successfully predicted the class of the test image.
+- The task files were organized inside a `files` folder to keep the project structure clean.
 
 ## Reflection
 
