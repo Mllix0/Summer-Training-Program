@@ -12,7 +12,7 @@ The Mechanical track focuses on understanding robot structure, mechanical design
 
 | Task No. | Task Name | Date | Status | Documentation |
 |---|---|---|---|---|
-| 1 | Initial Mechanical Design for a Simple Robotic Dog | 2026-07-10 | In Progress | [View Task](./Task-1-Robotic-Dog-Design) |
+| 1 | Initial Mechanical Design for a Simple Robotic Dog | 2026-07-10 | Completed | [View Task](./Task-1-Robotic-Dog-Design) |
 | 2 | Batman Logo Keychain Design Using SolidWorks | 2026-07-14 | Completed | [View Task](./Task-2-Batman-Keychain) |
 
 ## Task Summary
