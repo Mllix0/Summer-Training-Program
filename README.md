@@ -18,14 +18,6 @@ The program includes four main tracks:
 | AI | [AI Track](./AI) |
 | Web Development | [Web Development Track](./Web-Development) |
 
-## Task Documentation Template
-
-A reusable task documentation template is available here:
-
-[Task Documentation Template](./Task-Template.md)
-
-Use this template when documenting any new task in one of the four tracks.
-
 ## Repository Structure
 
 ```text
