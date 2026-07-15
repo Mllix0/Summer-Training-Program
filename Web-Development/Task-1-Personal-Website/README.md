@@ -165,16 +165,3 @@ Main components used in this project include:
 11. Tested the live website after deployment.
 12. Took screenshots and documented the task on GitHub.
 
-## Local Website File Structure
-
-```text
-Task-1-Personal-Website/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-    └── images/
-        ├── KAU_Logo.jpg
-        ├── fpv-drone.jpg
-        ├── potholes-detector.jpg
-        └── self-cleaning-solar-panel.jpg
