@@ -6,61 +6,46 @@
 
 This page documents the tasks, progress, and learning outcomes related to the Web Development track of the robotics summer training program.
 
-The Web Development track focuses on understanding how websites and web applications are built, including front-end structure, styling, interactivity, and how web interfaces can be used to control or monitor robotics systems.
+The Web Development track focuses on creating websites, organizing web files, using HTML, CSS, and JavaScript, and publishing websites online using hosting platforms.
 
 ## Tasks
 
-| Task No. | Task Name | Date | Status |
-|---|---|---|---|
-| 1 | To be added | To be added | Not Started |
+| Task No. | Task Name | Date | Status | Documentation | Live Website |
+|---|---|---|---|---|---|
+| 1 | Personal Portfolio Website | 2026-07-15 | Completed | [View Task](./Task-1-Personal-Website) | [Open Website](https://mllix-portfolio.nfy.fyi/) |
 
-## Task Documentation Template
+## Task Summary
 
-Use the following format to document each task:
+### Task 1: Personal Portfolio Website
 
-```md
-## Task Name
+This task focused on creating and designing a personal portfolio website using HTML, CSS, and JavaScript.
 
-**Date:**  
+The website includes a home section, about section, university background section, learning section, projects section, and contact section. It was developed locally using Visual Studio Code and hosted online using InfinityFree.
 
-**Objective:**  
-
-**Tools Used:**  
-
-**Steps:**  
-1. 
-2. 
-3. 
-
-**Result:**  
-
-**What I Learned:**  
-
-**Images / Files:**  
-```
-
-## Completed Tasks
-
-Add your completed Web Development track tasks here using the task documentation template above.
+[Open Task 1 Documentation](./Task-1-Personal-Website)
 
 ## Tools and Topics
 
 - HTML
 - CSS
 - JavaScript
+- Visual Studio Code
 - Website structure
-- User interfaces
-- Web pages
-- Forms
-- Buttons and interactions
+- Responsive design
+- File organization
+- Project images
+- Web hosting
+- InfinityFree
 - GitHub documentation
-- Robotics dashboards
-- Web-based control interfaces
 
 ## Notes
 
-Add important notes, references, screenshots, images, code files, or observations related to the Web Development track here.
+- Each Web Development task has its own folder and README page.
+- The main Web Development page is used as an index and summary page.
+- Detailed documentation, screenshots, links, and outputs are stored inside each task folder.
+- The personal website was hosted online using InfinityFree.
+- The live website link is included in the task documentation.
 
 ## Reflection
 
-At the end of the training program, write a short reflection about what you learned in the Web Development track and how it connects to robotics.
+The Web Development track helped me understand how websites are structured, styled, tested, and hosted online. Through this task, I practiced creating a complete personal portfolio website and documenting the process clearly on GitHub.
