@@ -4,8 +4,9 @@
 
 ## Overview
 
-This task focused on creating and designing a personal portfolio website using HTML, CSS, and JavaScript.  
-The website was built to present my background, learning progress, projects, and contact links in a clean and organized way.
+This task focused on creating and designing a personal portfolio website using HTML, CSS, and JavaScript.
+
+The website was created to present my background, university information, learning progress, engineering projects, and contact links in a clean and organized way.
 
 The website was developed locally using Visual Studio Code, then uploaded and hosted online using InfinityFree.
 
@@ -78,11 +79,26 @@ The website includes the following sections:
 - Mobile-friendly layout
 - Hosted live using InfinityFree
 
+## Screenshots
+
+### About and University Sections
+
+![About and University Sections](./files/website-about-university.png)
+
+### Projects Section
+
+![Projects Section](./files/website-projects.png)
+
+### Contact Section
+
+![Contact Section](./files/website-contact.png)
+
 ## Project Descriptions
 
 ### Smart Pothole Detection and Alert System
 
-This project focuses on detecting road potholes in real time using sensors and a microcontroller.  
+This project focuses on detecting road potholes in real time using sensors and a microcontroller.
+
 The system detects road vibration and distance changes, then alerts the driver using visual and audio signals. It also records the GPS location of potholes to help maintenance teams identify damaged road areas more efficiently.
 
 Main components used in this project include:
@@ -98,7 +114,8 @@ Main components used in this project include:
 
 ### Smart App-Controlled Solar Panel Cleaning System
 
-This project was designed to improve solar panel efficiency by removing dust from the panel surface.  
+This project was designed to improve solar panel efficiency by removing dust from the panel surface.
+
 The system uses an app-controlled cleaning mechanism, where the user can activate the cleaning process remotely. The goal was to create a low-cost, lightweight, and water-saving solution suitable for dusty environments.
 
 Main components used in this project include:
@@ -115,7 +132,8 @@ Main components used in this project include:
 
 ### FPV Drone
 
-This project focused on understanding the main parts of an FPV drone and how the mechanical, electrical, and control systems work together.  
+This project focused on understanding the main parts of an FPV drone and how the mechanical, electrical, and control systems work together.
+
 The project helped me learn about drone structure, propulsion, wiring, flight control, and the basic setup needed for FPV flying.
 
 Main components used in this project include:
@@ -147,3 +165,16 @@ Main components used in this project include:
 11. Tested the live website after deployment.
 12. Took screenshots and documented the task on GitHub.
 
+## Local Website File Structure
+
+```text
+Task-1-Personal-Website/
+├── index.html
+├── style.css
+├── script.js
+└── assets/
+    └── images/
+        ├── KAU_Logo.jpg
+        ├── fpv-drone.jpg
+        ├── potholes-detector.jpg
+        └── self-cleaning-solar-panel.jpg
