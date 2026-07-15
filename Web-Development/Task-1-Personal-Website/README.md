@@ -93,59 +93,13 @@ The website includes the following sections:
 
 ![Contact Section](./files/website-contact.png)
 
-## Project Descriptions
+## Projects Included
 
-### Smart Pothole Detection and Alert System
+The website includes the following projects:
 
-This project focuses on detecting road potholes in real time using sensors and a microcontroller.
-
-The system detects road vibration and distance changes, then alerts the driver using visual and audio signals. It also records the GPS location of potholes to help maintenance teams identify damaged road areas more efficiently.
-
-Main components used in this project include:
-
-- ESP32 microcontroller
-- MPU6050 accelerometer
-- Ultrasonic sensor
-- GPS module
-- OLED display
-- Buzzer and LEDs
-- Breadboard and jumper wires
-- Prototype vehicle body
-
-### Smart App-Controlled Solar Panel Cleaning System
-
-This project was designed to improve solar panel efficiency by removing dust from the panel surface.
-
-The system uses an app-controlled cleaning mechanism, where the user can activate the cleaning process remotely. The goal was to create a low-cost, lightweight, and water-saving solution suitable for dusty environments.
-
-Main components used in this project include:
-
-- Solar panel
-- ESP32 microcontroller
-- Mobile app control
-- Relay module
-- Water pump
-- Cleaning motor or wiper mechanism
-- Water container
-- Power source and wiring
-- Prototype frame
-
-### FPV Drone
-
-This project focused on understanding the main parts of an FPV drone and how the mechanical, electrical, and control systems work together.
-
-The project helped me learn about drone structure, propulsion, wiring, flight control, and the basic setup needed for FPV flying.
-
-Main components used in this project include:
-
-- Drone frame
-- Brushless motors
-- Propellers
-- Electronic speed controllers
-- Flight controller
-- FPV camera system
-- Battery
-- Receiver and wiring
+- Smart Pothole Detection and Alert System
+- Smart App-Controlled Solar Panel Cleaning System
+- FPV Drone
 
 ## Website Development Process
 
