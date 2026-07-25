@@ -171,8 +171,6 @@ One challenge was understanding the difference between local development and onl
 
 Locally, the project used XAMPP with Apache, MySQL, and phpMyAdmin. Online, the project needed a separate InfinityFree MySQL database and a different database connection file.
 
-Another important challenge was making sure the real database password was not uploaded to GitHub.
-
 ## What I Learned
 
 From this task, I learned:
