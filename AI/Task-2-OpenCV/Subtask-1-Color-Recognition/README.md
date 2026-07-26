@@ -53,15 +53,13 @@ The program follows these steps:
 
 ## Project Files
 
-The subtask contains:
-
 ```text
 Subtask-1-Color-Recognition/
 ├── README.md
 ├── files/
-│   ├── original-image.jpg
 │   ├── color-mask.png
 │   ├── final-result.png
+│   ├── original-image.jpg
 │   └── vscode-output.png
 └── source-code/
     ├── color_recognition.py
