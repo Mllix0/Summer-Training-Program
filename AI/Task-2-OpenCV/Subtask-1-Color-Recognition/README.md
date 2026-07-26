@@ -64,3 +64,101 @@ Subtask-1-Color-Recognition/
 └── source-code/
     ├── color_recognition.py
     └── requirements.txt
+```
+
+## Source Code
+
+The main source code file is:
+
+```text
+color_recognition.py
+```
+
+The required Python libraries are listed in:
+
+```text
+requirements.txt
+```
+
+The requirements file includes:
+
+```text
+opencv-python
+numpy
+```
+
+## Input and Output
+
+### Input
+
+The input image was placed inside the local `input` folder and used as the test image for color recognition.
+
+For GitHub documentation, the original image was uploaded to the `files` folder.
+
+### Output
+
+The program generated two main output files:
+
+- `color-mask.png`
+- `final-result.png`
+
+The color mask shows the detected color area in white and the background in black.
+
+The final result image shows the detected color with a rectangle and label.
+
+## Screenshots
+
+### Original Image
+
+![Original Image](./files/original-image.jpg)
+
+### Color Mask
+
+![Color Mask](./files/color-mask.png)
+
+### Final Result
+
+![Final Result](./files/final-result.png)
+
+### VS Code Output
+
+![VS Code Output](./files/vscode-output.png)
+
+## Result
+
+The program successfully detected the red object in the image.
+
+It created a color mask and drew a rectangle around the detected object with the label:
+
+```text
+Red
+```
+
+The final result confirmed that the OpenCV color recognition process worked correctly.
+
+## Challenges
+
+One challenge was choosing an image with clear lighting and a color that could be detected easily.
+
+Another challenge was selecting suitable HSV color ranges so the program could detect the object correctly without detecting too much background noise.
+
+## What I Learned
+
+From this subtask, I learned:
+
+- How to use OpenCV to read an image
+- How to convert an image from BGR to HSV
+- How HSV color detection works
+- How to create a color mask
+- How to detect contours
+- How to draw rectangles around detected objects
+- How to save output images using OpenCV
+- How to document an OpenCV project on GitHub
+
+## Reflection
+
+This subtask helped me understand the basics of image processing and color recognition using OpenCV.
+
+I learned that HSV color space is useful for detecting colors because it separates color information from brightness. This makes it easier to detect specific colors compared to using the normal BGR image format.
+
+This was a good first OpenCV subtask because it did not require a webcam and could be completed using a normal image file.
