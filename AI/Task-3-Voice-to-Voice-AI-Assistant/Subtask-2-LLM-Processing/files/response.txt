@@ -1,0 +1,11 @@
+**Main components of a personal computer (PC)**  
+
+Below are the core internal parts that make a PC work.  Each component has a specific role, and together they form the hardware foundation of any desktop or laptop system.
+
+| Component | What it does | Typical examples / notes |
+|-----------|--------------|--------------------------|
+| **Central Processing Unit (CPU)** | Executes instructions and performs calculations – the “brain” of the computer. | Intel Core i3/i5/i7/i9, AMD Ryzen 3/5/7/9, Threadripper, etc. |
+| **Motherboard (Mainboard)** | Provides the electrical and physical platform that connects all components. Contains the chipset, sockets, slots, and ports. | ATX, Micro‑ATX, Mini‑ITX, Z‑series (Intel), X‑series (AMD) chipsets. |
+| **Memory (RAM)** | Short‑term, volatile storage for data the CPU needs immediate access to. | DDR4, DDR5 modules (e.g., 8 GB, 16 GB, 32 GB). |
+| **Storage** | Long‑term, non‑volatile data storage. | • **HDD** – mechanical, high capacity (1 TB–4 TB).<br>• **SSD** – solid‑state, fast (NVMe PCIe, SATA).<br>• **NVMe** – ultra‑fast PCIe SSDs. |
+| **Power Supply Unit (PSU)** | Converts AC mains power to the DC voltages required by the PC and supplies stable power to each component. | 450 W–1000 W (or higher for high‑performance rigs), 80 PLUS efficiency ratings. |
