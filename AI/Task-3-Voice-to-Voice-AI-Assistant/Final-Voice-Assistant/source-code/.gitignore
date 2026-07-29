@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Environment variables and private credentials
+.env
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Generated application files
+recording.wav
+transcript.txt
+response.txt
+response_audio.wav
+
+# Testing and development caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
