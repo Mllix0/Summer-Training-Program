@@ -217,7 +217,7 @@ Distance: 14.2 cm | Object removed | Servo returning to 0 degrees
 
 ## Demonstration
 
-[▶ Watch the hands-on demonstration](files/media/hands-on-demo.mov)
+https://github.com/user-attachments/assets/d4135d56-9bde-4af8-a45c-80e0698b2b74
 
 The demonstration shows:
 
