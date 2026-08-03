@@ -32,7 +32,7 @@ An LED is also included as a movement indicator. It turns on while the servo is 
 - 330 Ω resistor
 - Breadboard
 - Jumper wires
-- USB cable
+- USB data cable
 
 ---
 
@@ -217,14 +217,15 @@ Distance: 14.2 cm | Object removed | Servo returning to 0 degrees
 
 ## Demonstration
 
-[Watch the hands-on demonstration](files/media/hands-on-demo.mov)
+[▶ Watch the hands-on demonstration](files/media/hands-on-demo.mov)
 
 The demonstration shows:
 
 - The complete physical circuit
-- Distance measurement using the HC-SR04
-- Servo activation when an object enters the detection range
-- LED operation during servo movement
+- Distance measurement using the HC-SR04 sensor
+- Servo movement when an object enters the detection range
+- LED operation while the servo is moving
+- The servo remaining activated while the object is nearby
 - Automatic servo return when the object moves away
 
 ---
@@ -245,9 +246,9 @@ Subtask-2-Hands-On-Servo-Control/
 └── README.md
 ```
 
-The `files` folder contains the complete PlatformIO project files and the project media used in this documentation.
+The `files` folder contains the PlatformIO project files and the media used in this documentation.
 
-PlatformIO may automatically generate additional local development folders after the project is opened, such as:
+PlatformIO may automatically generate additional local development folders after the project is opened:
 
 ```text
 .pio/
