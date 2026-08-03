@@ -68,7 +68,7 @@ All components share a common ground.
 
 ## Circuit Overview
 
-![Circuit overview](media/circuit-overview.jpg)
+![Circuit overview](files/media/circuit-overview.jpg)
 
 ---
 
@@ -121,7 +121,7 @@ For example:
 
 ## Adjustable Parameters
 
-The system behavior can be changed using the constants near the beginning of `src/main.cpp`.
+The system behavior can be changed using the constants near the beginning of [`files/src/main.cpp`](files/src/main.cpp).
 
 ### Servo Angles
 
@@ -202,7 +202,7 @@ The Serial Monitor displays:
 - Servo activation and return events
 - Missing ultrasonic echo warnings
 
-![Serial Monitor output](media/serial-monitor.png)
+![Serial Monitor output](files/media/serial-monitor.png)
 
 Example output:
 
@@ -217,7 +217,7 @@ Distance: 14.2 cm | Object removed | Servo returning to 0 degrees
 
 ## Demonstration
 
-[Watch the hands-on demonstration](media/hands-on-demo.mov)
+[Watch the hands-on demonstration](files/media/hands-on-demo.mov)
 
 The demonstration shows:
 
@@ -233,18 +233,21 @@ The demonstration shows:
 
 ```text
 Subtask-2-Hands-On-Servo-Control/
-├── media/
-│   ├── circuit-overview.jpg
-│   ├── hands-on-demo.mov
-│   └── serial-monitor.png
-├── src/
-│   └── main.cpp
-├── .gitignore
-├── platformio.ini
+├── files/
+│   ├── media/
+│   │   ├── circuit-overview.jpg
+│   │   ├── hands-on-demo.mov
+│   │   └── serial-monitor.png
+│   ├── src/
+│   │   └── main.cpp
+│   ├── .gitignore
+│   └── platformio.ini
 └── README.md
 ```
 
-PlatformIO may generate additional local development folders such as:
+The `files` folder contains the complete PlatformIO project files and the project media used in this documentation.
+
+PlatformIO may automatically generate additional local development folders after the project is opened, such as:
 
 ```text
 .pio/
@@ -254,7 +257,7 @@ lib/
 test/
 ```
 
-These generated folders are not required for the final GitHub documentation.
+These generated folders are not required in the GitHub repository.
 
 ---
 
@@ -272,42 +275,46 @@ These generated folders are not required for the final GitHub documentation.
 
 The project uses an Arduino Uno environment and the Arduino Servo library.
 
-The `platformio.ini` file contains:
+The [`files/platformio.ini`](files/platformio.ini) file contains:
 
 ```ini
 [env:uno]
 platform = atmelavr
 board = uno
 framework = arduino
-upload_port = COM3
 monitor_speed = 9600
 
 lib_deps =
     arduino-libraries/Servo
 ```
 
-The upload port may be different on another computer. For example:
+PlatformIO normally detects the Arduino upload port automatically.
+
+If automatic detection fails, the upload port can temporarily be added:
 
 ```ini
-upload_port = COM4
+upload_port = COM3
 ```
+
+The COM port may be different on another computer.
 
 ---
 
 ## Running the Project
 
-1. Open the project folder in Visual Studio Code.
-2. Install the PlatformIO IDE extension.
-3. Connect the Arduino Uno using a USB cable.
-4. Confirm the correct COM port in `platformio.ini`.
-5. Build the project using PlatformIO.
-6. Upload the program to the Arduino.
-7. Open the PlatformIO Serial Monitor at `9600` baud.
-8. Place an object farther than `12 cm` from the sensor.
-9. Move the object to `10 cm` or closer.
-10. Observe the LED and servo movement.
-11. Move the object beyond `12 cm`.
-12. Confirm that the servo returns automatically.
+1. Download or clone the repository.
+2. Open the `files` folder in Visual Studio Code.
+3. Install the PlatformIO IDE extension.
+4. Connect the Arduino Uno using a USB data cable.
+5. Confirm that Windows detects the Arduino.
+6. Build the project using PlatformIO.
+7. Upload the program to the Arduino.
+8. Open the PlatformIO Serial Monitor at `9600` baud.
+9. Place an object farther than `12 cm` from the sensor.
+10. Move the object to `10 cm` or closer.
+11. Observe the LED and servo movement.
+12. Move the object beyond `12 cm`.
+13. Confirm that the servo returns automatically.
 
 ---
 
@@ -319,6 +326,7 @@ upload_port = COM4
 - Check that the red wire is connected to 5V.
 - Check that the brown wire is connected to GND.
 - Confirm that the Servo library is installed through PlatformIO.
+- Check that the servo connector is facing the correct direction.
 
 ### Incorrect Distance Readings
 
@@ -326,6 +334,7 @@ upload_port = COM4
 - Make sure the object is facing the ultrasonic sensor.
 - Avoid placing the object extremely close to the sensor.
 - Confirm that all components share a common ground.
+- Check for loose jumper-wire connections.
 
 ### Arduino Restarts or Disconnects
 
@@ -336,14 +345,15 @@ If the Arduino restarts or the sensor readings become unstable:
 - Check for loose connections.
 - Disconnect the circuit immediately if any component becomes hot.
 - Consider powering the servo using a separate regulated 5V supply.
-- Connect the external supply ground to the Arduino ground.
+- Connect the external power-supply ground to the Arduino ground.
 
 ### Upload Fails
 
 - Confirm that the Arduino is detected by Windows.
 - Check the COM port in Device Manager.
-- Update `upload_port` in `platformio.ini`.
 - Use a USB cable that supports data transfer.
+- Try a different USB port.
+- Add the correct `upload_port` to `platformio.ini` if automatic detection fails.
 
 ---
 
