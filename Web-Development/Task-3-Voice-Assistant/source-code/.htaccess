@@ -1,0 +1,7 @@
+# Prevent visitors from viewing directory contents.
+Options -Indexes
+
+# Block direct browser access to the private configuration file.
+<Files "config.php">
+    Require all denied
+</Files>
