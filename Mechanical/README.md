@@ -14,9 +14,9 @@ Each task has its own folder and README file containing the design process, proj
 
 | Task No. | Task Name | Date | Status | Documentation |
 |---|---|---|---|---|
-| 1 | Initial Mechanical Design for a Simple Robotic Dog | 2026-07-10 | Completed | [View Task](./Task-1-Initial-Mechanical-Design-for-a-Simple-Robotic-Dog) |
-| 2 | Batman Logo Keychain Design Using SolidWorks | 2026-07-14 | Completed | [View Task](./Task-2-Batman-Logo-Keychain-Design-Using-SolidWorks) |
-| 3 | Task 3 – To Be Completed Later | — | Pending | Not Available Yet |
+| 1 | Initial Mechanical Design for a Simple Robotic Dog | 2026-07-10 | Completed | [View Task](./Task-1-Robotic-Dog-Design) |
+| 2 | Batman Logo Keychain Design Using SolidWorks | 2026-07-14 | Completed | [View Task](./Task-2-Batman-Keychain) |
+| 3 | To Be Completed Later | — | Pending | Not Available Yet |
 | 4 | Exploded View of the Robot | 2026-08-06 | Completed | [View Task](./Task-4-Exploded-View-of-the-Robot) |
 
 ## Task Summary
@@ -27,7 +27,7 @@ This task focused on creating an initial mechanical concept for a simple robotic
 
 The goal was to understand the basic mechanical principles that allow a robot to stand and walk, including body shape, leg design, joints, degrees of freedom, motor selection, torque, and expected mechanical problems.
 
-[Open Task 1 Documentation](./Task-1-Initial-Mechanical-Design-for-a-Simple-Robotic-Dog)
+[Open Task 1 Documentation](./Task-1-Robotic-Dog-Design)
 
 ### Task 2: Batman Logo Keychain Design Using SolidWorks
 
@@ -35,7 +35,7 @@ This task focused on creating a 3D keychain model using SolidWorks.
 
 A Batman logo reference image was used to estimate the design shape and measurements. The design was sketched, extruded, exported as an STL file, and uploaded to GitHub with its project files and documentation.
 
-[Open Task 2 Documentation](./Task-2-Batman-Logo-Keychain-Design-Using-SolidWorks)
+[Open Task 2 Documentation](./Task-2-Batman-Keychain)
 
 ### Task 3: To Be Completed Later
 
@@ -86,8 +86,8 @@ Explode lines were added to show where the components connect, and the final exp
 - The main Mechanical page is used as an index and summary page.
 - Detailed documentation, files, screenshots, and outputs are stored inside each task folder.
 - Task files are organized using clear folder and file names.
-- Task 3 was skipped temporarily and will be completed later.
-- Task 4 was completed before Task 3 and is documented normally according to its assigned task number.
+- Task 3 was temporarily skipped and will be completed later.
+- Task 4 was completed before Task 3 and is documented according to its assigned task number.
 
 ## Reflection
 
