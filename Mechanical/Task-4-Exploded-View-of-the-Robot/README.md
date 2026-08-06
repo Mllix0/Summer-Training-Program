@@ -79,7 +79,7 @@ The final exploded view clearly shows the arrangement of the robot body, legs, s
 
 The complete exploded-view animation can be viewed using the link below:
 
-### [Watch the Robot Exploded View Animation](./files/media/Robotic_Dog_Assembly_Exploded_View_Animation.mp4)
+https://github.com/user-attachments/assets/efbd5076-c08e-463e-aa9c-4ff92f126c58
 
 ## Challenges
 
