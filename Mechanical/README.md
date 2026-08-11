@@ -6,9 +6,9 @@
 
 This page documents the tasks, progress, and learning outcomes related to the Mechanical track of the robotics summer training program.
 
-The Mechanical track focuses on understanding robot structure, mechanical design, mechanisms, materials, manufacturing methods, CAD modeling, 3D printing, assemblies, and the physical components used in robotics systems.
+The Mechanical track focuses on understanding robot structure, mechanical design, mechanisms, materials, manufacturing methods, CAD modeling, 3D printing, assemblies, physical robot construction, and movement testing.
 
-Each task has its own folder and README file containing the design process, project files, screenshots, results, challenges, and learning outcomes.
+Each task has its own folder and README file containing the design process, project files, screenshots, results, and learning outcomes.
 
 ## Tasks
 
@@ -19,7 +19,7 @@ Each task has its own folder and README file containing the design process, proj
 | 3 | To Be Completed Later | — | Pending | Not Available Yet |
 | 4 | Exploded View of the Robot | 2026-08-06 | Completed | [View Task](./Task-4-Exploded-View-of-the-Robot) |
 | 5 | Build The Robot | 2026-08-11 | Completed | [View Task](./Task-5-Build-The-Robot) |
-| 6 | Three Movement | — | In Progress | Not Available Yet |
+| 6 | Three Movement | 2026-08-11 | Completed | [View Task](./Task-6-Three-Movement) |
 
 ## Task Summary
 
@@ -61,21 +61,27 @@ Explode lines were added to show where the components connect, and the final exp
 
 This task focused on physically building the robotic dog based on the previous robot design and assembly.
 
-The robot body and legs were assembled to create the final physical structure and prepare the robot for movement programming and testing.
+The robot body, legs, servo motors, and other components were assembled to create the final physical structure.
 
-Photos of the completed physical robot were added to document the final build.
+Photos of the completed robotic dog were added to document the finished physical build before movement programming and testing.
 
 [Open Task 5 Documentation](./Task-5-Build-The-Robot)
 
 ### Task 6: Three Movement
 
-This task focuses on programming the physical robotic dog to perform three different movements:
+This task focused on programming the physical robotic dog to perform three different movements using four servo motors controlled by an Arduino Uno.
+
+The three completed movements were:
 
 - Forward movement
-- Waving
-- Dance movement
+- Waving using the front-right leg
+- Dance movement using all four legs
 
-**Status:** In Progress
+Each movement was programmed and tested separately. The servo neutral positions, movement angles, and timing were adjusted experimentally until suitable physical movements were achieved.
+
+Separate code files and demonstration videos were included for each movement.
+
+[Open Task 6 Documentation](./Task-6-Three-Movement)
 
 ## Tools and Topics
 
@@ -97,7 +103,13 @@ This task focuses on programming the physical robotic dog to perform three diffe
 - Explode lines
 - Assembly animation
 - Physical robot assembly
-- Servo motor integration
+- Arduino Uno
+- Servo motors
+- Servo calibration
+- Servo control
+- Robot movement programming
+- PlatformIO
+- Visual Studio Code
 - Degrees of freedom
 - Torque calculation
 - Walking mechanisms
@@ -107,12 +119,12 @@ This task focuses on programming the physical robotic dog to perform three diffe
 
 - Each mechanical task has its own folder and README page.
 - The main Mechanical page is used as an index and summary page.
-- Detailed documentation, files, screenshots, and outputs are stored inside each task folder.
+- Detailed documentation, files, screenshots, videos, and code are stored inside each task folder.
 - Task files are organized using clear folder and file names.
 - Task 3 was temporarily skipped and will be completed later.
-- Task 4 was completed before Task 3 and is documented according to its assigned task number.
+- Task 4 documents the SOLIDWORKS assembly and exploded view of the robotic dog.
 - Task 5 documents the completed physical build of the robotic dog.
-- Task 6 focuses on programming and demonstrating three robot movements.
+- Task 6 documents three programmed robot movements: Forward, Waving, and Dance.
 
 ## Reflection
 
