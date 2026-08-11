@@ -18,6 +18,8 @@ Each task has its own folder and README file containing the design process, proj
 | 2 | Batman Logo Keychain Design Using SolidWorks | 2026-07-14 | Completed | [View Task](./Task-2-Batman-Keychain) |
 | 3 | To Be Completed Later | — | Pending | Not Available Yet |
 | 4 | Exploded View of the Robot | 2026-08-06 | Completed | [View Task](./Task-4-Exploded-View-of-the-Robot) |
+| 5 | Build The Robot | 2026-08-11 | Completed | [View Task](./Task-5-Build-The-Robot) |
+| 6 | Three Movement | — | In Progress | Not Available Yet |
 
 ## Task Summary
 
@@ -55,6 +57,26 @@ Explode lines were added to show where the components connect, and the final exp
 
 [Open Task 4 Documentation](./Task-4-Exploded-View-of-the-Robot)
 
+### Task 5: Build The Robot
+
+This task focused on physically building the robotic dog based on the previous robot design and assembly.
+
+The robot body and legs were assembled to create the final physical structure and prepare the robot for movement programming and testing.
+
+Photos of the completed physical robot were added to document the final build.
+
+[Open Task 5 Documentation](./Task-5-Build-The-Robot)
+
+### Task 6: Three Movement
+
+This task focuses on programming the physical robotic dog to perform three different movements:
+
+- Forward movement
+- Waving
+- Dance movement
+
+**Status:** In Progress
+
 ## Tools and Topics
 
 - Mechanical design
@@ -74,7 +96,8 @@ Explode lines were added to show where the components connect, and the final exp
 - Explode steps
 - Explode lines
 - Assembly animation
-- Video export and compression
+- Physical robot assembly
+- Servo motor integration
 - Degrees of freedom
 - Torque calculation
 - Walking mechanisms
@@ -88,6 +111,8 @@ Explode lines were added to show where the components connect, and the final exp
 - Task files are organized using clear folder and file names.
 - Task 3 was temporarily skipped and will be completed later.
 - Task 4 was completed before Task 3 and is documented according to its assigned task number.
+- Task 5 documents the completed physical build of the robotic dog.
+- Task 6 focuses on programming and demonstrating three robot movements.
 
 ## Reflection
 
